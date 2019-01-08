@@ -1,0 +1,20 @@
+.placeholder-grey-darkest::placeholder {
+  @apply text-grey-darker opacity-100;
+}
+
+.placeholder-grey-darkest:focus::placeholder {
+  @apply text-grey-darkest opacity-100;
+}
+
+button:focus {
+  @apply outline-none;
+}
+
+.container .algolia-autocomplete {
+  @apply w-full;
+}
+
+.container .algolia-autocomplete.algolia-autocomplete-right .ds-dropdown-menu {
+  @apply max-w-full;
+  left: 0 !important;
+}

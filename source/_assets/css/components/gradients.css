@@ -1,0 +1,11 @@
+.bg-gradient-light-ocean {
+  background-image: linear-gradient(-75deg, #4398ee 0%, #5f54f1 100%);
+}
+
+.bg-gradient-blue {
+  background-image: linear-gradient(-75deg, config('colors.blue-light') 0%, config('colors.blue-dark') 100%);
+}
+
+.bg-gradient-maizzle {
+  background-image: url('../../img/escheresque.png'), linear-gradient(-75deg, rgba(67, 152, 238, 0.95) 0%, rgba(95, 84, 241, 0.95) 100%);
+}

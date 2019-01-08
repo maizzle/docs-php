@@ -1,0 +1,27 @@
+code {
+  @apply inline-block bg-grey-lighter text-xs py-1 px-2 leading-none font-mono;
+}
+
+pre {
+  @apply overflow-auto scrolling-touch break-normal bg-white p-4 mb-4 max-h-sm border rounded;
+
+  code {
+    @apply leading-normal bg-white text-grey-darker;
+  }
+}
+
+kbd {
+  @apply inline-block font-mono bg-grey-lighter border border-grey text-grey-dark text-xxs;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(135,149,161,0.4), 0 0 0 2px #fff inset;
+  line-height: 1.4;
+  margin: 0 .1em;
+  padding: .15em .6em;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.code-block {
+  &:hover .copy-to-clipboard {
+    display: block;
+  }
+}

@@ -1,0 +1,7 @@
+.transition-all {
+  transition: all 0.3s cubic-bezier(0.86, 0, 0.07, 1) 0s;
+}
+
+.transition-transform {
+  transition: transform 0.3s cubic-bezier(0.86, 0, 0.07, 1) 0s;
+}

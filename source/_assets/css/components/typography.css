@@ -1,0 +1,52 @@
+.content {
+  p a,
+  li a {
+    @apply border-b;
+
+    &:hover {
+      @apply border-indigo;
+    }
+  }
+
+  ol, ul {
+    @apply mb-4;
+
+    ol, ul {
+      @apply mb-0;
+    }
+  }
+
+  li {
+    @apply my-1;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply text-black font-light leading-tight pb-6;
+}
+
+h2, h3, h4, h5, h6 {
+  @apply pt-2;
+}
+
+p {
+  @apply mb-4;
+  line-height: 1.8;
+}
+
+p, li {
+  @apply font-hind-madurai;
+  color: inherit;
+}
+
+sup {
+  @apply px-1;
+}
+
+.cursor-help {
+  cursor: help;
+}
+
+.label {
+  @apply align-text-top inline-block pt-px px-1 mt-1 text-xs font-mono uppercase text-white rounded;
+}

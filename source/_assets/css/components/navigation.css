@@ -1,0 +1,43 @@
+.dropdown:hover ul {
+    visibility: visible;
+    opacity: 1;
+}
+
+.toggle,
+.tab-panel,
+.filetree ul {
+  &[aria-expanded="false"] {
+    display: none;
+  }
+}
+
+.sidebar-navigation {
+
+  .wrapper {
+    height: calc(100vh - 5rem);
+  }
+
+  .toggle-trigger {
+
+    &.active::after {
+      content: "\2014";
+    }
+
+    &::after {
+      @apply ml-3 font-bold;
+      content: "+";
+      font-family: initial;
+      position: relative;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page-nav[aria-expanded="false"] {
+    transform: translateX( calc(100% + 1rem) );
+  }
+
+  .mobile-menu-opened {
+    transform: translateX(-75%);
+  }
+}

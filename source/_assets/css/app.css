@@ -1,0 +1,14 @@
+@import "tailwindcss/preflight";
+
+@import "components/resets";
+@import "components/spacing";
+@import "components/typography";
+@import "components/forms";
+@import "components/code";
+@import "components/gradients";
+@import "components/animation";
+@import "components/navigation";
+
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
