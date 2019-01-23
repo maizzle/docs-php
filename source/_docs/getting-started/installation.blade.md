@@ -35,7 +35,7 @@ If you're cloning the repo, you'll also need [Git](https://www.atlassian.com/git
 Maizzle PHP is a project that you clone or download from GitHub:
 
 ```sh
-git clone https://github.com/maizzle/maizzle-php.git my-project
+git clone https://github.com/maizzle/maizzle.git my-project
 ```
 
 Next, `cd` into your project directory and install the dependencies:
