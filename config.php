@@ -10,7 +10,7 @@ return [
             'thumbnail' => '/img/logo-light.png',
             'sort' => 'page_order',
             'social' => [
-                'github' => 'https://github.com/maizzle',
+                'github' => 'https://github.com/maizzle/maizzle-php',
                 'twitter' => 'https://twitter.com/maizzlejs',
                 'envato' => 'https://themeforest.net/user/thememountain/portfolio?ref=thememountain',
             ],
