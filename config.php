@@ -11,7 +11,7 @@ return [
             'sort' => 'page_order',
             'social' => [
                 'github' => 'https://github.com/maizzle',
-                'twitter' => 'https://twitter.com/maizzlemail',
+                'twitter' => 'https://twitter.com/maizzlejs',
                 'envato' => 'https://themeforest.net/user/thememountain/portfolio?ref=thememountain',
             ],
         ],

@@ -31,7 +31,7 @@ class BeforeBuild
         curl_setopt( $c, CURLOPT_SSL_VERIFYPEER, false );
         curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($c, CURLOPT_USERAGENT, 'Maizzle');
-        curl_setopt($c, CURLOPT_URL, 'https://api.github.com/repos/maizzle/maizzle/releases/latest');
+        curl_setopt($c, CURLOPT_URL, 'https://api.github.com/repos/maizzle/maizzle-php/releases/latest');
         $output = curl_exec($c);
         curl_close($c);
         $release = json_decode(trim($output));
